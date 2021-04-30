@@ -10,7 +10,6 @@ const game = {
 };
 
 //Get element
-let startScreen = document.querySelector('.start-screen');
 let startButton = document.querySelector('.start-button');
 let overScreen = document.querySelector('.over-screen');
 let againButton = document.querySelector('.again-button')
@@ -248,11 +247,6 @@ function handleCollisions() {
 }
 
 //=== ACTION OF GAME ===
-
-//Click 
-startButton.addEventListener('click', () => {
-  startScreen.style.display = 'none';
-})
 
 // clear screen
 function clear() {
